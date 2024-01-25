@@ -42,7 +42,7 @@ securityContext: {}
 service:
   type: NodePort
   port: 8092
-  targetPort:8080
+  targetPort: 8080
 
 ingress:
   enabled: false
